@@ -87,7 +87,6 @@ button {
 }
 .hero-text {
   color: #ffffff;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -117,7 +116,6 @@ button {
 }
 .doing-section > h2,
 .our-team-section > h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
