@@ -16,6 +16,7 @@
   --button-portfolio-hover: #f4f4fd;
   --logo-studio-footer-text: #f4f4fd;
   --footer-text: #e7e9fc;
+  --navi-link-hover-color: #434455;
 }
 /* GENERAL */
 a:visited {
@@ -67,7 +68,7 @@ body {
   line-height: 1.5;
 }
 .navi-link:hover {
-  color: var(--hover-focus-button-color);
+  color: var(--navi-link-hover-color);
 }
 .navi-link:focus {
   color: var(--hover-focus-button-color);
