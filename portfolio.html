@@ -18,25 +18,29 @@
   <body>
     <!-- Header-->
     <header>
-      <a href="index.html"
+      <a href="index.html" class="logo-link"
         ><span class="logo-web">WEB</span
         ><span class="logo-studio">STUDIO</span></a
       >
       <nav class="nav-menu">
         <ul class="nav-menu-list">
-          <li><a class="navi-link" href="./index.html">Studio</a></li>
-          <li><a class="navi-link current" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="navi-link" href="">Contacts</a></li>
+          <li class="list-item">
+            <a class="navi-link" href="./index.html">Studio</a>
+          </li>
+          <li class="list-item">
+            <a class="navi-link current" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="list-item"><a class="navi-link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address class="address-menu">
         <ul>
-          <li>
+          <li class="list-item">
             <a href="mailto:info@devstudio.com" class="contmail"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="list-item">
             <a href="tel:+11(000)1111111" class="contnumb"
               >+11 (000) 111-11-11</a
             >
@@ -45,110 +49,106 @@
       </address>
     </header>
     <main>
-      <div class="buttons">
-        <ul class="buttons-list">
-          <li><button type="button" class="button">All</button></li>
-          <li><button type="button" class="button">Web Site</button></li>
-          <li><button type="button" class="button">App</button></li>
-          <li><button type="button" class="button">Design</button></li>
-          <li><button type="button" class="button">Marketeing</button></li>
-        </ul>
-      </div>
-      <h1 hidden>Our Works</h1>
-      <!-- Section 1 -->
       <section class="section-our-works">
+        <div class="buttons">
+          <ul class="buttons-list">
+            <li class="list-item">
+              <button type="button" class="button-portfolio">All</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="button-portfolio">Web Site</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="button-portfolio">App</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="button-portfolio">Design</button>
+            </li>
+            <li class="list-item">
+              <button type="button" class="button-portfolio">Marketeing</button>
+            </li>
+          </ul>
+        </div>
+        <h1 hidden>Our Works</h1>
+        <!-- Section 1 -->
+
         <ul class="our-works-list">
-          <li>
+          <li class="list-item">
             <img
-              src="./ourwork/img1.jpg"
+              src="./img/img1.jpg"
               alt="Online Banking"
               width="360"
               height="300"
             />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h2 class="h2-portfolio">Banking App Interface Concept</h2>
+            <p class="p-worklist">App</p>
           </li>
-          <li>
-            <img
-              src="./ourwork/img2.jpg"
-              alt="PayPal"
-              width="360"
-              height="300"
-            />
+          <li class="list-item">
+            <img src="./img/img2.jpg" alt="PayPal" width="360" height="300" />
             <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <p class="p-worklist">Marketing</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
-              src="./ourwork/img3.jpg"
+              src="./img/img3.jpg"
               alt="Noutbook and Phone"
               width="360"
               height="300"
             />
-            <h2>Meditaion App</h2>
-            <p>App</p>
+            <h2 class="h2-portfolio">Meditaion App</h2>
+            <p class="p-worklist">App</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
-              src="./ourwork/img4.jpg"
+              src="./img/img4.jpg"
               alt="Cardriver"
               width="360"
               height="300"
             />
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
+            <h2 class="h2-portfolio">Taxi Service</h2>
+            <p class="p-worklist">Marketing</p>
           </li>
-          <li>
+          <li class="list-item">
+            <img src="./img/img5.jpg" alt="Phone" width="360" height="300" />
+            <h2 class="h2-portfolio">Screen Illustrations</h2>
+            <p class="p-worklist">Design</p>
+          </li>
+          <li class="list-item">
+            <img src="./img/img6.jpg" alt="Girl" width="360" height="300" />
+            <h2 class="h2-portfolio">Online Courses</h2>
+            <p class="p-worklist">Marketing</p>
+          </li>
+          <li class="list-item">
+            <img src="./img/img7.jpg" alt="Designer" width="360" height="300" />
+            <h2 class="h2-portfolio">Instagram Stories Concept</h2>
+            <p class="p-worklist">Design</p>
+          </li>
+          <li class="list-item">
             <img
-              src="./ourwork/img5.jpg"
-              alt="Phone"
-              width="360"
-              height="300"
-            />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
-          </li>
-          <li>
-            <img src="./ourwork/img6.jpg" alt="Girl" width="360" height="300" />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./ourwork/img7.jpg"
-              alt="Designer"
-              width="360"
-              height="300"
-            />
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
-          </li>
-          <li>
-            <img
-              src="./ourwork/img8.jpg"
+              src="./img/img8.jpg"
               alt="Fresh food"
               width="360"
               height="300"
             />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+            <h2 class="h2-portfolio">Organic Food</h2>
+            <p class="p-worklist">Web Site</p>
           </li>
-          <li>
+          <li class="list-item">
             <img
-              src="./ourwork/img9.jpg"
+              src="./img/img9.jpg"
               alt="Coffe whith milk"
               width="360"
               height="300"
             />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+            <h2 class="h2-portfolio">Fresh Coffee</h2>
+            <p class="p-worklist">Web Site</p>
           </li>
         </ul>
       </section>
 
       <!-- Footer -->
       <footer class="footer-menu">
-        <a href="index.html">
+        <a href="index.html" class="logo-link">
           <span class="logo-web">WEB</span
           ><span class="logo-studio-footer">STUDIO</span></a
         >
